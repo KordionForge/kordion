@@ -166,7 +166,7 @@
 	 * @public
 	 * @param {String} id The anchor ID to escape
 	 * @author Mathias Bynens
-	 * @link https://github.com/mathiasbynens/CSS.escape
+	 * @link httpss://github.com/mathiasbynens/CSS.escape
 	 */
 	smoothScroll.escapeCharacters = function ( id ) {
 
@@ -209,7 +209,7 @@
 					firstCodeUnit === 0x002D
 				)
 			) {
-				// http://dev.w3.org/csswg/cssom/#escape-a-character-as-code-point
+				// https://dev.w3.org/csswg/cssom/#escape-a-character-as-code-point
 				result += '\\' + codeUnit.toString(16) + ' ';
 				continue;
 			}
@@ -232,7 +232,7 @@
 			}
 
 			// Otherwise, the escaped character.
-			// http://dev.w3.org/csswg/cssom/#escape-a-character
+			// https://dev.w3.org/csswg/cssom/#escape-a-character
 			result += '\\' + string.charAt(index);
 
 		}
@@ -244,7 +244,7 @@
 	/**
 	 * Calculate the easing pattern
 	 * @private
-	 * @link https://gist.github.com/gre/1650294
+	 * @link httpss://gist.github.com/gre/1650294
 	 * @param {String} type Easing pattern
 	 * @param {Number} time Time animation should take to complete
 	 * @returns {Number}
@@ -407,7 +407,7 @@
 
 		/**
 		 * Reset position to fix weird iOS bug
-		 * @link https://github.com/cferdinandi/smooth-scroll/issues/45
+		 * @link httpss://github.com/cferdinandi/smooth-scroll/issues/45
 		 */
 		if ( root.pageYOffset === 0 ) {
 			root.scrollTo( 0, 0 );

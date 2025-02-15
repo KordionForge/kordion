@@ -1,9 +1,9 @@
 /*!
  * Documenter 2.0
- * http://rxa.li/documenter
+ * https://rxa.li/documenter
  *
  * Copyright 2011, Xaver Birsak
- * http://revaxarts.com
+ * https://revaxarts.com
  *
  */
  
@@ -22,7 +22,7 @@ $(document).ready(function() {
 		badIE = $('html').prop('class').match(/ie(6|7|8)/)|| false;
 		
 	//handle external links (new window)
-	$('a[href^=http]').bind('click',function(){
+	$('a[href^=https]').bind('click',function(){
 		window.open($(this).attr('href'));
 		return false;
 	});
