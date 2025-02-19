@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Production\\main-projects\\kordion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Production\\main-projects\\kordion\\assets\\css\\animsition.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\animsition.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Production\\main-projects\\kordion\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Production\\main-projects\\kordion\\assets\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Production\\main-projects\\kordion\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Production\\main-projects\\kordion\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "animsition.min.css",
-              "DocumentMoniker": "C:\\Production\\main-projects\\kordion\\assets\\css\\animsition.min.css",
-              "RelativeDocumentMoniker": "assets\\css\\animsition.min.css",
-              "ToolTip": "C:\\Production\\main-projects\\kordion\\assets\\css\\animsition.min.css",
-              "RelativeToolTip": "assets\\css\\animsition.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Production\\main-projects\\kordion\\assets\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "assets\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Production\\main-projects\\kordion\\assets\\css\\bootstrap.min.css",
+              "RelativeToolTip": "assets\\css\\bootstrap.min.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-15T14:52:34.915Z",
+              "WhenOpened": "2025-02-19T11:58:46.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Production\\main-projects\\kordion\\services.html",
+              "RelativeDocumentMoniker": "services.html",
+              "ToolTip": "C:\\Production\\main-projects\\kordion\\services.html",
+              "RelativeToolTip": "services.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-19T11:58:03.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Production\\main-projects\\kordion\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Production\\main-projects\\kordion\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-19T11:55:24.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "contact.html",
               "DocumentMoniker": "C:\\Production\\main-projects\\kordion\\contact.html",
               "RelativeDocumentMoniker": "contact.html",
               "ToolTip": "C:\\Production\\main-projects\\kordion\\contact.html",
               "RelativeToolTip": "contact.html",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-02-15T14:51:49.023Z",
               "EditorCaption": ""
