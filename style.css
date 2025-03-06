@@ -1,0 +1,20 @@
+﻿/* 
+    @author: John Daniels AKA Kordion
+*/
+
+/* --------------------------------
+
+00.GENERAL STYLES
+
+-------------------------------- */
+
+body {
+    background: #985629;
+    color: #fff;
+    font: 400 14px/1.8 'Apple Chancery', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #123524;
+    font-family: 'Apple Chancery', cursive;
+}
