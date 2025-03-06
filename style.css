@@ -11,10 +11,10 @@
 body {
     background: #985629;
     color: #fff;
-    font: 400 14px/1.8 'Apple Chancery', cursive;
+    font: 400 14px/1.8 'Garamond', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #123524;
-    font-family: 'Apple Chancery', cursive;
+    font-family: 'Marker Felt', fantasy;
 }
