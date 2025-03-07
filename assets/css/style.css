@@ -2,13 +2,64 @@
     @author: John Daniels AKA Kordion
 */
 
-/* --------------------------------
+/* --------------------
 
-00.GENERAL STYLES
+    00. FONTS
 
--------------------------------- */
+-------------------- */
 
+@font-face {
+    font-family: Medieval;
+    src: url(../fonts/MedievalSharp-Regular);
+}
+
+/* --------------------
+
+    01. GENERAL STYLES
+
+-------------------- */
 body {
     background: #985629;
     color: #fff;
+    /* font: 400 14px/1.8 Medieval, fantasy; */
+    font-family: Medieval, fantasy;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #123524;
+    font-family: Garamond, fantasy;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* --------------------
+
+    Hamburger Menu
+
+-------------------- */
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px, 0px;
+    transition: 0.4s;
+}
+
+/* Rotate Bar 1 */
+.change .bar1 {
+    transform: translate(0, 11px) rotate(315)
+}
+
+/* Fade Bar 2 */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate Bar 3 */
+.change .bar3 {
+    transform: translate(0, 11px) rotate(225)
 }
