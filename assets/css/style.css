@@ -45,13 +45,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 35px;
     height: 5px;
     background-color: #333;
-    margin: 6px, 0px;
+    margin: 6px, 2px;
     transition: 0.4s;
 }
 
 /* Rotate Bar 1 */
 .change .bar1 {
-    transform: translate(0, 11px) rotate(315)
+    transform: translate(0, 11px) rotate(-45)
 }
 
 /* Fade Bar 2 */
@@ -61,5 +61,5 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Rotate Bar 3 */
 .change .bar3 {
-    transform: translate(0, 11px) rotate(225)
+    transform: translate(0, 11px) rotate(45)
 }
