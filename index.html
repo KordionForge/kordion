@@ -29,7 +29,7 @@
         <h2>Portfolio</h2>
 
         <!-- Control Buttons -->
-        <div id="btnContainer">
+        <div id="myBtnContainer">
             <button class="btn active" onclick="filterSelection('all')">All</button>
             <button class="btn" onclick="filterSelection('games')">Game Projects</button>
             <button class="btn" onclick="filterSelection('soundtracks')">Soundtracks</button>
@@ -47,6 +47,8 @@
     </div>
 
     <script>
+        filterSelection('all')
+
         function filterSelection(c) {
             var x, i;
             x = document.getElementsByClassName("filterDiv");
@@ -81,7 +83,7 @@
             element.className = arr1.join(" ");
         }
 
-        var btnContainer = document.getElementById("btnContainer");
+        var btnContainer = document.getElementById("myBtnContainer");
         var btns = btnContainer.getElementsByClassName("btn");
         for (var i = 0; i < btns.length; i++) {
             btns[i].addEventListener("click", function () {
