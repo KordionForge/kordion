@@ -88,7 +88,7 @@ body {
     float: left;
     background-color: #FFC300;
     color: white;
-    width: 100px;
+    width: fit-content;
     line-height: 100px;
     text-align: center;
     margin: 2px;
