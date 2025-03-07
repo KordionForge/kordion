@@ -2,19 +2,36 @@
     @author: John Daniels AKA Kordion
 */
 
+/* --------------------
+
+    00. FONTS
+
+-------------------- */
+
+@font-face {
+    font-family: Medieval;
+    src: url(../fonts/MedievalSharp-Regular);
+}
+
+
 /* --------------------------------
 
 00.GENERAL STYLES
 
 -------------------------------- */
 
+/* --------------------
+
+
+
+-------------------- */
 body {
     background: #985629;
     color: #fff;
-    font: 400 14px/1.8 'Garamond', serif;
+    font: 400 14px/1.8 Medieval, fantasy;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #123524;
-    font-family: 'Marker Felt', fantasy;
+    font-family: Medieval, fantasy;
 }
