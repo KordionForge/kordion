@@ -24,5 +24,72 @@
             <a href="contact.html">Contact</a>
         </div>
     </div>
+
+    <div class="portfolio">
+        <h2>Portfolio</h2>
+
+        <!-- Control Buttons -->
+        <div id="btnContainer">
+            <button class="btn active" onclick="filterSelection('all')">All</button>
+            <button class="btn" onclick="filterSelection('games')">Game Projects</button>
+            <button class="btn" onclick="filterSelection('soundtracks')">Soundtracks</button>
+            <button class="btn" onclick="filterSelection('albums')">Albums</button>
+            <button class="btn" onclick="filterSelection('student')">Student Projects</button>
+        </div>
+
+        <!-- Projects -->
+        <div class="container">
+            <div class="filterDiv games">Forged in Fear</div>
+            <div class="filterDiv soundtracks">Forged in Fear OST</div>
+            <div class="filterDiv albums">Code of Conduct</div>
+            <div class="filterDiv student games">Tangled Visions</div>
+        </div>
+    </div>
+
+    <script>
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            // add the "show" class to filtered elements, remove from elements that are not selected
+            for (i = 0; i < x.length; i++) {
+                removeClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
+            }
+        }
+
+        function addClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        function removeClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        var btnContainer = document.getElementById("btnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
 </body>
 </html>

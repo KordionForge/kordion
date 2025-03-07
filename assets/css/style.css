@@ -73,3 +73,45 @@ body {
         float: none;
     }
 }
+
+/* --------------------
+
+    03. PORTFOLIO
+
+-------------------- */
+
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    float: left;
+    background-color: #FFC300;
+    color: white;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #0F52BA;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0047AB;
+}
+
+.btn.active {
+    background-color: white;
+    color: #FFC300;
+}
